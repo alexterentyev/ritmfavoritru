@@ -86,6 +86,7 @@ body {background:url(i/bgc.jpg) top center repeat-x;}
 .bgg {background:url(i/bgg.png) top left repeat-x;}
 
 .left, .right {float:left; width:405px; display:inline;margin-left:30px;}
+.full {padding:0 30px;}
 
 .mt30 {margin-top:30px;}
 .p30 {padding:25px 30px;}
@@ -106,11 +107,13 @@ h2 {font-size:24px; font-weight:normal; line-height:29px; color:#93278F; padding
 .about {margin-top:-15px; color:#676767; ;}
 
 .header {background:url(i/bgt.png) top center no-repeat; height:307px; z-index:200; position:relative;}
+.header3 {background:url(i/bgt2.png) top center no-repeat; height:307px; z-index:200;  margin-bottom:-290px;}
 .header2 {position:relative;top:18px; background:url(i/woman.jpg)  center top no-repeat; width:874px; height:270px;margin-left:auto; margin-right:auto; padding-left:30px;}
 .header2 img {margin-top:28px;}
 .header2 h1 {color:#676767; width:600px; margin-top:5px; font-weight:normal;}
 
-.price {background:url(i/price.png) top center no-repeat; display:block; width:344px; height:54px; margin-left:auto; margin-right:auto; margin-top:25px;}
+.price {background:url(i/price.png) top center no-repeat; display:block; width:374px; height:54px; margin-left:auto; margin-right:auto; margin-top:25px;}
+.price_download {background:url(i/price_download.png) top center no-repeat; display:block; width:344px; height:54px; margin-left:auto; margin-right:auto; margin-top:25px;}
 
 .bul li {background:url(i/bul.png) 10px 010px no-repeat;text-indent: 25px; padding:3px 0;}
 p {padding:3px 0}
@@ -164,3 +167,37 @@ a.showmap img {display:none;}
 #uniquename3 {display:none; position:absolute; z-index:250; width:413px; float:left; margin-left:-413px;height:295px; background-image:url(i/map.png);}
 
 #more, #docs1, #docs2 {display:none;}
+
+.ptable {width:100%;}
+.ptable thead td {padding:7px 10px; color:#4D4D4D;font-weight:bold;}
+.ptable tbody td {padding:3px 10px;color:#1A1A1A; border-bottom:1px solid #fff;}
+.ptable .tr1 td {background-color:#E6E6E6;}
+.ptable .tr2 td {background-color:#F2F2F2;}
+.ptable .tr3 td {background-color:#fff;}
+
+.pt1 thead .td4 {padding-left:50px;}
+.pt1 thead .td56 {padding-left:30px;}
+.pt1 thead .td78 {padding-left:30px;}
+.pt1 thead .td90 {padding-left:30px;}
+
+.pt1 tbody td.td1 {text-align:right;width:20px;}
+.pt1 tbody td.td2 {text-align:center;width:12px;padding:0;}
+.pt1 tbody td.td3 {text-align:left;}
+.pt1 tbody td.td5 {text-align:right;}
+.pt1 tbody td.td6 {text-align:left;padding-left:0;}
+.pt1 tbody td.td7 {text-align:right;}
+.pt1 tbody td.td8 {text-align:left;padding-left:0;}
+.pt1 tbody td.td9 {text-align:right;}
+.pt1 tbody td.td0 {text-align:left;padding-left:0;}
+
+
+.pt2 tbody td.td1 {text-align:right;width:20px;}
+.pt2 tbody td.td2 {text-align:center;width:12px;padding:0;}
+.pt2 tbody td.td3 {text-align:left;}
+
+em {font-style:italic;color:#4D4D4D; padding:0 10px 10px 10px;display:block;}
+
+.pt3 tbody td.td1 {width:560px;}
+.pt3 tbody td.td2 {}
+
+.pricetxt {background: url(i/pricetxt.png) 0 0 no-repeat;height:45px;width:250px;}
