@@ -123,17 +123,17 @@ p {padding:3px 0}
 
 .clients h3 {font-size:18px; color:#676767; font-weight:normal;}
 
-.clients ul li {background-image:url(i/clients.jpg);background-repeat:no-repeat; padding-top: 72px; text-align:center; width:190px; margin-right:27px; margin-top:26px; float:left; display:inline;}
+.clients ul li a {background-image:url(i/clients.jpg);background-repeat:no-repeat; padding-top: 72px; text-align:center; width:190px; margin-right:27px; margin-top:26px; float:left; display:inline;}
 .clients .bg {padding-bottom:25px;}
 
-.bt {background-position:0 0;}
-.ak {background-position: -190px 0;}
-.st {background-position: -380px 0;}
-.za {background-position: -570px 0;}
-.dl {background-position: -760px 0;}
-.ka {background-position: -950px 0;}
-.lk {background-position: -1140px 0;}
-.sd {background-position: -1330px 0;}
+.bt a{background-position:0 0;}
+.ak a{background-position: -190px 0;}
+.st a{background-position: -380px 0;}
+.za a{background-position: -570px 0;}
+.dl a{background-position: -760px 0;}
+.ka a{background-position: -950px 0;}
+.lk a{background-position: -1140px 0;}
+.sd a{background-position: -1330px 0;}
 
 
 .mtl30 {margin-top:25px; margin-left:30px;}
@@ -201,3 +201,5 @@ em {font-style:italic;color:#4D4D4D; padding:0 10px 10px 10px;display:block;}
 .pt3 tbody td.td2 {}
 
 .pricetxt {background: url(i/pricetxt.png) 0 0 no-repeat;height:45px;width:250px;}
+
+.top em {padding:0;}
